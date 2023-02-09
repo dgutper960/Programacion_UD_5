@@ -37,6 +37,10 @@ public class EjemploConjunto {
 
         Set<String> conjunto2 = new HashSet<>();
         conjunto.removeAll(conjunto2);
+        conjunto2.add("Berenjena");
+        conjunto2.add("Periquito");
+        conjunto2.add("Alcachofa");
+        conjunto2.add("Guarnición");
         System.out.println(conjunto);
     }
 
